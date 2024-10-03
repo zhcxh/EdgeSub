@@ -22,7 +22,7 @@ jobs:
               uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
               with:
                   target_repo_token: ${{ secrets.GITHUB_TOKEN }}
-                  upstream_sync_repo: yonggekkk/Cloudflare_vless_trojan  # 只需修改 fork名称 上游项目名称
+                  upstream_sync_repo: kobe-koto/EdgeSub  # 只需修改 fork名称 上游项目名称
                   upstream_sync_branch: main
                   target_sync_branch: main
                   test_mode: false
